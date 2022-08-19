@@ -19,4 +19,6 @@ contactList.push({
   apellido: window.prompt("Ingrese apellido del contacto que desea agregar"),
 });
 
+contactList.splice(0, 1, { name: "Danilo", apellido: "Gutierres" });
+
 console.log(contactList);
